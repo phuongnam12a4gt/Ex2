@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292727"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/texview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CD603D"
+        android:text="@string/txt_kindcoffee"
+        android:textColor="#ffffff" />
+
+    <RadioGroup
+        android:id="@+id/radiokindcoffe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_decaf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_decaf"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/radio_expresso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_expresso"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/radio_deca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_colombian"
+            android:textColor="#ffffff" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/texview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CD603D"
+        android:text="@string/txt_otherkindcoffe"
+        android:textColor="#ffffff" />
+
+    <CheckBox
+        android:id="@+id/checkbox_cream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_cream"
+        android:textColor="#ffffff"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/checkbox_sugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_sugar"
+        android:textColor="#ffffff"></CheckBox>
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_pay" />
+</LinearLayout>

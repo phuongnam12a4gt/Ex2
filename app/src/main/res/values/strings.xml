@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MAIN</string>
+    <string name="baitapui">BÀI TẬP UI</string>
+
+    <string name="ex1">EX1</string>
+    <string name="txt_kindcoffee">What kind of coffee?</string>
+    <string name="txt_otherkindcoffe">What else in yours coffee?</string>
+    <string name="radio_decaf">Decaf</string>
+    <string name="radio_expresso">Expresso</string>
+    <string name="radio_colombian">Colombian</string>
+    <string name="checkbox_cream">Cream</string>
+    <string name="checkbox_sugar">Sugar</string>
+    <string name="btn_pay">Pay</string>
+
+    <string name="ex2">EX2</string>
+    <string name="learn">LEARN</string>
+    <string name="practice">PRACTIVE</string>
+    <string name="test">TEST</string>
+
+    <string name="uilinearlayout">UI LINEARLAYOUT</string>
+
+    <string name="uirelativelayout">RELATIVE LAYOUT</string>
+</resources>
